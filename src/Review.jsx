@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import people from './data';
+import { useState } from 'react';
+
 import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
 
-const Review = () => {
+import people from './data';
+
+export const Review = () => {
   return <h2>review component</h2>;
 };
-
-export default Review;
